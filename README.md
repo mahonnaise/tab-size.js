@@ -4,7 +4,7 @@
 
 At the time of writing, the `tab-size` property is natively suppored by Firefox via `-moz-tab-size` and by Opera via `-o-tab-size`.
 
-For the most recent information, refer to [MDC]() and [caniuse]().
+For the most recent information, refer to [MDC](https://developer.mozilla.org/en/CSS/-moz-tab-size) and [caniuse](http://caniuse.com/).
 
 # Usage
 
