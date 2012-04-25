@@ -22,16 +22,15 @@ Since vendor prefixes are a pain in the rear, you have to use all prefixed versi
 
 ##Polyfilling via the jQuery Plugin
 
-`$(`<var>selector</var>`).tabSize(`<var>size</var>`);`
+<code>$(<var>selector</var>).tabSize(<var>size</var>);</code>
 
-* `size` -- the tab size, default: `4`
+* `size` &ndash; the tab size, default: `4`
 
 ##Polyfilling via the Global Function
 
 **Note:** Since `querySelectorAll` is not supported by IE6 and IE7, the function won't do anything if those browsers are used.
 
-`tabSize(`<var>selector</var>`, `<var>size</var>`);`
+<code>tabSize(<var>selector</var>, <var>size</var>);</code>
 
-* `selector` -- the selector passed to `querySelectorAll`, default: `"pre"`
-
-* `size` -- the tab size, default: `4`
+* `selector` &ndash; the selector passed to `querySelectorAll`, default: `"pre"`
+* `size` &ndash; the tab size, default: `4`
