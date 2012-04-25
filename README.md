@@ -15,7 +15,7 @@ Since vendor prefixes are a pain in the rear, you have to use all prefixed versi
 	-webkit-tab-size: 4; /* future? */
 	-moz-tab-size: 4;    /* Firefox 4+ */
 	-ms-tab-size: 4;     /* future? */
-	-o-tab-size: 4;      /* Opera 9.5+ */
+	-o-tab-size: 4;      /* Opera 10.60+ */
 	tab-size: 4;         /* future? */
 
 **Note:** If the `tab-size` property (or one of the prefixed versions) is supported, the plugin/function won't do anything. It was written under the assumption that you'll do the right thing and use CSS whenever you can.
