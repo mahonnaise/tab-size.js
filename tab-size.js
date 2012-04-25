@@ -57,7 +57,7 @@
 			if (!isTabSizeSupported() && document.querySelectorAll) {
 				elements = document.querySelectorAll(selector || 'pre');
 				for (i = elements.length; i--;) {
-					elements[i].innerHTML = indentBlock(elements[i].innerHTML, tabSize);
+					elements[i].innerText = indentBlock(elements[i].innerText, tabSize);
 				}
 			}
 		};
@@ -69,7 +69,7 @@
 					return this;
 				} else {
 					return this.each(function () {
-						this.innerHTML = indentBlock(this.innerHTML, tabSize);
+						this.innerText = indentBlock(this.innerText, tabSize);
 					});
 				}
 			};
